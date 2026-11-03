@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1b2024;
+  --color-ink-50: #f4f5f6;
+  --color-ink-700: #2a3137;
+  --color-ink-800: #22282d;
+  --color-ink-900: #14181b;
+  --color-ink-950: #0e1113;
+
+  --color-brand: #f17103;
+  --color-brand-300: #ffa95c;
+  --color-brand-400: #ff8a24;
+  --color-brand-600: #d26000;
+  --color-brand-700: #a84b00;
+
+  --color-mist: #e4e5e7;
+  --color-mist-400: #a9adb3;
+  --color-mist-500: #8a9097;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-unbounded), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1.5rem;
+
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-float: float 7s ease-in-out infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-14px) rotate(3deg); }
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink text-mist font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-white tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-brand text-ink;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-brand;
+  }
+
+  .glass {
+    @apply border border-white/10 bg-white/[0.04] backdrop-blur-xl;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-300 via-brand to-brand-600 bg-clip-text text-transparent;
+  }
+
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+  }
+}
+
+/* Long-form article typography */
+@layer components {
+  .article-body {
+    @apply text-lg leading-relaxed text-mist/90;
+  }
+  .article-body > * + * {
+    @apply mt-6;
+  }
+  .article-body h2 {
+    @apply mt-12 text-2xl font-bold sm:text-3xl;
+  }
+  .article-body h3 {
+    @apply mt-10 text-xl font-bold;
+  }
+  .article-body ul {
+    @apply list-disc space-y-2 pl-6 marker:text-brand;
+  }
+  .article-body ol {
+    @apply list-decimal space-y-2 pl-6 marker:text-brand;
+  }
+  .article-body blockquote {
+    @apply border-l-4 border-brand pl-5 text-xl italic text-white;
+  }
+  .article-body a {
+    @apply text-brand underline underline-offset-4 hover:text-brand-300;
+  }
+  .article-body strong {
+    @apply font-semibold text-white;
+  }
+}
