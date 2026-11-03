@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#F17103"/><stop offset="1" stop-color="#1B2024"/></radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <circle cx="400" cy="420" r="230" fill="#000" opacity=".18"/>
+  <g fill="#B3622A" stroke="#F7E3C4" stroke-width="10"><circle cx="320" cy="380" r="110"/><circle cx="490" cy="450" r="100"/></g><g fill="none" stroke="#F7E3C4" stroke-width="6" stroke-linecap="round"><path d="M270 380c30-30 70-30 100 0"/><path d="M450 450c25-25 55-25 80 0"/></g>
+  <text x="400" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="6" fill="#E4E5E7" opacity=".55">PRYANIKI</text>
+</svg>

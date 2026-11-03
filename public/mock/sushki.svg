@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#F17103"/><stop offset="1" stop-color="#1B2024"/></radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <circle cx="400" cy="420" r="230" fill="#000" opacity=".18"/>
+  <g fill="none" stroke="#F5C27A" stroke-width="44"><circle cx="330" cy="360" r="110"/><circle cx="480" cy="440" r="110"/></g><g fill="#1B2024"><circle cx="300" cy="280" r="5"/><circle cx="380" cy="300" r="5"/><circle cx="250" cy="380" r="5"/><circle cx="520" cy="360" r="5"/><circle cx="560" cy="480" r="5"/><circle cx="430" cy="530" r="5"/></g>
+  <text x="400" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="6" fill="#E4E5E7" opacity=".55">SUSHKI</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#D26000"/><stop offset="1" stop-color="#1B2024"/></radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <circle cx="400" cy="420" r="230" fill="#000" opacity=".18"/>
+  <g transform="rotate(-8 400 420)"><rect x="220" y="320" width="360" height="200" rx="28" fill="#E3A23B"/><g fill="#6B4A1E"><ellipse cx="277" cy="393" rx="10" ry="6" transform="rotate(29 277 393)"/>
+<ellipse cx="314" cy="446" rx="10" ry="6" transform="rotate(58 314 446)"/>
+<ellipse cx="351" cy="499" rx="10" ry="6" transform="rotate(87 351 499)"/>
+<ellipse cx="388" cy="382" rx="10" ry="6" transform="rotate(116 388 382)"/>
+<ellipse cx="425" cy="435" rx="10" ry="6" transform="rotate(145 425 435)"/>
+<ellipse cx="462" cy="488" rx="10" ry="6" transform="rotate(174 462 488)"/>
+<ellipse cx="499" cy="371" rx="10" ry="6" transform="rotate(23 499 371)"/>
+<ellipse cx="536" cy="424" rx="10" ry="6" transform="rotate(52 536 424)"/>
+<ellipse cx="243" cy="477" rx="10" ry="6" transform="rotate(81 243 477)"/>
+<ellipse cx="280" cy="360" rx="10" ry="6" transform="rotate(110 280 360)"/>
+<ellipse cx="317" cy="413" rx="10" ry="6" transform="rotate(139 317 413)"/>
+<ellipse cx="354" cy="466" rx="10" ry="6" transform="rotate(168 354 466)"/>
+<ellipse cx="391" cy="349" rx="10" ry="6" transform="rotate(17 391 349)"/>
+<ellipse cx="428" cy="402" rx="10" ry="6" transform="rotate(46 428 402)"/>
+<ellipse cx="465" cy="455" rx="10" ry="6" transform="rotate(75 465 455)"/>
+<ellipse cx="502" cy="508" rx="10" ry="6" transform="rotate(104 502 508)"/>
+<ellipse cx="539" cy="391" rx="10" ry="6" transform="rotate(133 539 391)"/>
+<ellipse cx="246" cy="444" rx="10" ry="6" transform="rotate(162 246 444)"/>
+<ellipse cx="283" cy="497" rx="10" ry="6" transform="rotate(11 283 497)"/>
+<ellipse cx="320" cy="380" rx="10" ry="6" transform="rotate(40 320 380)"/>
+<ellipse cx="357" cy="433" rx="10" ry="6" transform="rotate(69 357 433)"/>
+<ellipse cx="394" cy="486" rx="10" ry="6" transform="rotate(98 394 486)"/>
+<ellipse cx="431" cy="369" rx="10" ry="6" transform="rotate(127 431 369)"/>
+<ellipse cx="468" cy="422" rx="10" ry="6" transform="rotate(156 468 422)"/>
+<ellipse cx="505" cy="475" rx="10" ry="6" transform="rotate(5 505 475)"/>
+<ellipse cx="542" cy="358" rx="10" ry="6" transform="rotate(34 542 358)"/>
+<ellipse cx="249" cy="411" rx="10" ry="6" transform="rotate(63 249 411)"/>
+<ellipse cx="286" cy="464" rx="10" ry="6" transform="rotate(92 286 464)"/>
+<ellipse cx="323" cy="347" rx="10" ry="6" transform="rotate(121 323 347)"/>
+<ellipse cx="360" cy="400" rx="10" ry="6" transform="rotate(150 360 400)"/>
+<ellipse cx="397" cy="453" rx="10" ry="6" transform="rotate(179 397 453)"/>
+<ellipse cx="434" cy="506" rx="10" ry="6" transform="rotate(28 434 506)"/>
+<ellipse cx="471" cy="389" rx="10" ry="6" transform="rotate(57 471 389)"/>
+<ellipse cx="508" cy="442" rx="10" ry="6" transform="rotate(86 508 442)"/>
+<ellipse cx="545" cy="495" rx="10" ry="6" transform="rotate(115 545 495)"/>
+<ellipse cx="252" cy="378" rx="10" ry="6" transform="rotate(144 252 378)"/>
+<ellipse cx="289" cy="431" rx="10" ry="6" transform="rotate(173 289 431)"/>
+<ellipse cx="326" cy="484" rx="10" ry="6" transform="rotate(22 326 484)"/>
+<ellipse cx="363" cy="367" rx="10" ry="6" transform="rotate(51 363 367)"/>
+<ellipse cx="400" cy="420" rx="10" ry="6" transform="rotate(80 400 420)"/></g></g>
+  <text x="400" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="6" fill="#E4E5E7" opacity=".55">KOZINAKI</text>
+</svg>

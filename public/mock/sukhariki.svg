@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#A84B00"/><stop offset="1" stop-color="#1B2024"/></radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <circle cx="400" cy="420" r="230" fill="#000" opacity=".18"/>
+  <g fill="#5B3418" stroke="#2E1B0E" stroke-width="6"><rect x="250" y="300" width="110" height="110" rx="18" transform="rotate(-14 305 355)"/><rect x="400" y="280" width="110" height="110" rx="18" transform="rotate(12 455 335)"/><rect x="320" y="430" width="110" height="110" rx="18" transform="rotate(6 375 485)"/><rect x="470" y="430" width="100" height="100" rx="18" transform="rotate(-20 520 480)"/></g><g fill="#7FB069"><circle cx="300" cy="350" r="7"/><circle cx="460" cy="330" r="7"/><circle cx="380" cy="480" r="7"/></g>
+  <text x="400" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="6" fill="#E4E5E7" opacity=".55">SUKHARIKI</text>
+</svg>

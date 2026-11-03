@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#FF8A24"/><stop offset="1" stop-color="#1B2024"/></radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <circle cx="400" cy="420" r="230" fill="#000" opacity=".18"/>
+  <g><rect x="230" y="300" width="340" height="230" rx="24" fill="#C46A1C"/><rect x="230" y="345" width="340" height="18" fill="#F7E3C4"/><rect x="230" y="400" width="340" height="18" fill="#F7E3C4"/><rect x="230" y="455" width="340" height="18" fill="#F7E3C4"/><rect x="230" y="285" width="340" height="40" rx="20" fill="#8A4512"/></g>
+  <text x="400" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="6" fill="#E4E5E7" opacity=".55">MEDOVIK</text>
+</svg>
